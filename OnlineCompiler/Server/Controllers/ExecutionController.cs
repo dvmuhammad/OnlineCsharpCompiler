@@ -44,6 +44,7 @@ namespace OnlineCompiler.Server.Controllers
         /// <param name="id">id</param>
         /// <returns>Execution Information</returns>
         [HttpGet]
+        [Route("{id}")]
         public ExecutionInfo? Get(string id)
         {
             if (!_codeExecutors.ContainsKey(id))

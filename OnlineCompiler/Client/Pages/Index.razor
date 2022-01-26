@@ -103,7 +103,7 @@
     {
         do
         {
-            ExecutionInfo = ((ExecutionInfo?)(await Http.GetFromJsonAsync<ExecutionInfo?>("Execution?id=" + ExecutionId)));
+            ExecutionInfo = ((ExecutionInfo?)(await Http.GetFromJsonAsync<ExecutionInfo?>("Execution/" + ExecutionId)));
             StateHasChanged();
             await Task.Delay(1000);
         } while (ExecutionInfo != null && (ExecutionInfo.Status != ExecutionInfo.ExecutionStatus.Finished && ExecutionInfo.Status != ExecutionInfo.ExecutionStatus.CompilationError));
