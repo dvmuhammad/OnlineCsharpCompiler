@@ -32,7 +32,7 @@ namespace OnlineCompiler.Server
 
         public async Task PerformCodeExecutionAsync()
         {
-            using (SandBox = new IsolateSandbox())
+            using (Environment.UserName == "root" ? SandBox = new IsolateSandbox() : SandBox = new BubblewrapSandbox())
             {
                 try
                 {
