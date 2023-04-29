@@ -7,7 +7,7 @@ EXPOSE 80
 EXPOSE 443
 
 #Building isolate and bubblewrap
-FROM gcc:latest AS externallibbuild
+FROM gcc:12 AS externallibbuild
 RUN curl -L https://github.com/ioi/isolate/archive/refs/tags/v1.8.1.tar.gz > isolate.tar.gz
 RUN tar -xzf isolate.tar.gz
 RUN apt-get update

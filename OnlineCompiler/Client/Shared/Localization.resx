@@ -124,24 +124,24 @@
     <value>Compiling</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Write C# code and press "Execute" to compile and execute the code</value>
+    <value>Напишите код на C# и нажмите "Выполнить", чтобы скомпилировать и выполнить код</value>
   </data>
   <data name="Execute" xml:space="preserve">
-    <value>Execute</value>
+    <value>Выполнять</value>
   </data>
   <data name="Finished" xml:space="preserve">
-    <value>Finished</value>
+    <value>Законченно</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>Home</value>
+    <value>Домой</value>
   </data>
   <data name="OnlineCsharpCompiler" xml:space="preserve">
-    <value>Online C# Compiler</value>
+    <value>C# Compiler</value>
   </data>
   <data name="Preparing" xml:space="preserve">
-    <value>Preparing</value>
+    <value>Подготовка</value>
   </data>
   <data name="Running" xml:space="preserve">
-    <value>Running</value>
+    <value>Запуск</value>
   </data>
 </root>

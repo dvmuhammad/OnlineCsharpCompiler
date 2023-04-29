@@ -79,7 +79,7 @@ namespace OnlineCompiler.Client.Shared {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Write C# code and press &quot;Execute&quot; to compile and execute the code.
+        ///   Looks up a localized string similar to Напишите код на C# и нажмите &quot;Выполнить&quot;, чтобы скомпилировать и выполнить код.
         /// </summary>
         public static string Description {
             get {
@@ -88,7 +88,7 @@ namespace OnlineCompiler.Client.Shared {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Execute.
+        ///   Looks up a localized string similar to Выполнять.
         /// </summary>
         public static string Execute {
             get {
@@ -97,7 +97,7 @@ namespace OnlineCompiler.Client.Shared {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Finished.
+        ///   Looks up a localized string similar to Законченно.
         /// </summary>
         public static string Finished {
             get {
@@ -106,7 +106,7 @@ namespace OnlineCompiler.Client.Shared {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Home.
+        ///   Looks up a localized string similar to Домой.
         /// </summary>
         public static string Home {
             get {
@@ -115,7 +115,7 @@ namespace OnlineCompiler.Client.Shared {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Online C# Compiler.
+        ///   Looks up a localized string similar to C# Compiler.
         /// </summary>
         public static string OnlineCsharpCompiler {
             get {
@@ -124,7 +124,7 @@ namespace OnlineCompiler.Client.Shared {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Preparing.
+        ///   Looks up a localized string similar to Подготовка.
         /// </summary>
         public static string Preparing {
             get {
@@ -133,7 +133,7 @@ namespace OnlineCompiler.Client.Shared {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Running.
+        ///   Looks up a localized string similar to Запуск.
         /// </summary>
         public static string Running {
             get {
